@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "vivre_a_cacs",
+  "info": {
+    "singularName": "vivre-a-cac",
+    "pluralName": "vivre-a-cacs",
+    "displayName": "Vivre à cacs"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "uid"
+    }
+  }
+}

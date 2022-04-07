@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_main_titre_avec_sliders",
+  "info": {
+    "displayName": "Titre avec  Slider",
+    "icon": "file-image"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string",
+      "unique": true
+    },
+    "Slide": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main.titre-avec-image"
+    }
+  }
+}

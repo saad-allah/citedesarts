@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_main_titre_avec_images",
+  "info": {
+    "displayName": "Titre avec image",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

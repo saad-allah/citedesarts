@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_main_sliders",
+  "info": {
+    "displayName": "Slider",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "text",
+      "required": true
+    },
+    "Images": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "IDVideo": {
+      "type": "string",
+      "required": false
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

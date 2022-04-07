@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_main_items",
+  "info": {
+    "displayName": "Items",
+    "icon": "arrow-alt-circle-right"
+  },
+  "options": {},
+  "attributes": {
+    "Item": {
+      "type": "text"
+    }
+  }
+}

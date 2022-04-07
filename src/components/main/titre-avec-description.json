@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_main_titre_avec_descriptions",
+  "info": {
+    "displayName": "Titre avec description",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

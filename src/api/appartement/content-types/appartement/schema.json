@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "appartements",
+  "info": {
+    "singularName": "appartement",
+    "pluralName": "appartements",
+    "displayName": "Appartement"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "uid"
+    }
+  }
+}

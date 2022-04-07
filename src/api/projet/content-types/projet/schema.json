@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "projetes",
+  "info": {
+    "singularName": "projet",
+    "pluralName": "projetes",
+    "displayName": "Projet  ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Slug": {
+      "type": "uid"
+    },
+    "Slider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.slider"
+    },
+    "TitreDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.titre-avec-description"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Plan": {
+      "type": "component",
+      "repeatable": false,
+      "component": "main.titre-avec-image"
+    },
+    "Projet": {
+      "type": "component",
+      "repeatable": true,
+      "component": "main.projet"
+    },
+    "Titre": {
+      "type": "text"
+    }
+  }
+}

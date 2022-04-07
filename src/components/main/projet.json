@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_main_projet_s",
+  "info": {
+    "displayName": "Projet  ",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "Titre": {
+      "type": "text"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Items": {
+      "displayName": "Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "main.items"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
